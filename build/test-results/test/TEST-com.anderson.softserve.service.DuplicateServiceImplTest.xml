@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.anderson.softserve.service.DuplicateServiceImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-02-10T20:29:47" hostname="MacBook-Pro-de-Anderson-2.local" time="0.011">
+  <properties/>
+  <testcase name="testNoDuplicateWithValidLevels()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.006"/>
+  <testcase name="testRemoveDuplicatesSemiSenior()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.001"/>
+  <testcase name="testRemoveDuplicatesSeniorAdvanceWithNull()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.001"/>
+  <testcase name="testRemoveDuplicatesSeniorAdvance()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.001"/>
+  <testcase name="testRemoveDuplicatesJunior()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.0"/>
+  <testcase name="testRemoveDuplicatesSeniorWithNull()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.0"/>
+  <testcase name="testRemoveDuplicatesSenior()" classname="com.anderson.softserve.service.DuplicateServiceImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

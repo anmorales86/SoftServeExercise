@@ -1,14 +1,27 @@
-# Getting Started
+## Instalation
 
-### Reference Documentation
-For further reference, please consider the following sections:
+Step 1: Clone the repository:
+```
+$ git clone https://github.com/anmorales86/SoftServeExercise
+```
 
-* [Official Gradle documentation](https://docs.gradle.org)
-* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/3.4.1/gradle-plugin)
-* [Create an OCI image](https://docs.spring.io/spring-boot/3.4.1/gradle-plugin/packaging-oci-image.html)
+Step 2: cd into the cloned repository
 
-### Additional Links
-These additional references should also help you:
+step 3: Build the project using Maven:
+```shell
+  ./gradlew clean build
+```
+step 4: Before running the project it is necessary that the VPN is turned on. Run the application:
+```shell
+  ./gradlew bootRun
+```
 
-* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
-
+## Postman
+```
+curl --location 'http://localhost:8080/api/no-duplicate' \
+--header 'Content-Type: application/json' \
+--data '{
+    "sentence": "AABBCCD112233",
+    "level": "3"
+}'
+```
